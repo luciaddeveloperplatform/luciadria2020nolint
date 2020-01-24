@@ -5,15 +5,15 @@
 ## It does NOT Include
  ESLint, Prettier
  
-## Description this basic Webpack
-It demonstrate how to add the LuciadRIA 2020 API.  
-This basic setup can deal with js, jsx, css, scss and multiple static files (eot|svg|ttf|woff|woff2|png|jpg).
+## Description 
+This basic webpack setup  demonstrate how to integrate the LuciadRIA 2020 API.  
+The setup can deal with js, jsx, css, scss and multiple static files (eot|svg|ttf|woff|woff2|png|jpg).
 
-In this sample an empty map is added to the page
+In this sample an empty map is added to the webpage page
 
 ## How to use.  
-Simply download or clone your this project from Github
-To setup LuciadRIA type
+Simply download or clone this project from Github
+To setup the modules of the LuciadRIA API type
 
 * npm install --save file_path_to_your_luciadria_package
 
@@ -21,15 +21,15 @@ Example:
 
 ### Main package
 
-* npm install --save C:\luciad\LuciadRIA_2020.0.05b\packages\es6\ria
+* npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\ria
 
 ### Optional packages
-* npm install --save C:\luciad\LuciadRIA_2020.0.05b\packages\es6\geometry
-* npm install --save C:\luciad\LuciadRIA_2020.0.05b\packages\es6\symbology
+* npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\geometry
+* npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\symbology
 
-### LuciadRIA license setup
+### LuciadRIA license configuration
 
-Simply copy a valid  LuciadRIA license in the folder './src/license'.
+Simply copy a valid LuciadRIA license file into the folder './src/license'.
 Make sure your license file is called 'luciadria_development.txt'
 
 ##Scripts:
@@ -46,9 +46,5 @@ Make sure your license file is called 'luciadria_development.txt'
 - This environment can be used as starting point for web applications or libraries
 - CSS/SCSS code is split from the final JS bundle for production
 - Static files are served as files (not bundled)
-- Easy to integrate with LuciadRIA 2020
-
-
-
- 
- 
+- Integrated with LuciadRIA 2020
+- It shows an empty 3D map
