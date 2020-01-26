@@ -1,5 +1,5 @@
 {
-  "name": "react2020luciadria",
+  "name": "luciadria2020nolint",
   "version": "1.0.0",
   "description": "A basic Webpack environment with LuciadRIA 2020.0 integration",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luciaddevelopmentplatform/react2020luciadria"
+    "url": "git+https://github.com/luciaddevelopmentplatform/luciadria2020nolint"
   },
   "keywords": [],
   "author": "",
