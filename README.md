@@ -41,6 +41,7 @@ Make sure your license file is called 'luciadria_development.txt'
 ## Key functionality
 
 - Parses and bundle js (Javascript)  and jsx (React)
+- Development server with hot reload
 - Bundle code for production
 - Test server for production
 - This environment can be used as starting point for web applications or libraries
