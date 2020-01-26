@@ -15,7 +15,7 @@ In this sample an empty map is added to the webpage page
 Simply download or clone this project from Github.   
 NOTE: If you have instaleld the git commandline your can type:
 ```
-git clone https://github.com/luciaddevelopmentplatform/react2020luciadria.git
+git clone https://github.com/luciaddevelopmentplatform/luciadria2020nolint.git
 ```
 Change directory to the location of the repository and install your npm dependencies.
 
