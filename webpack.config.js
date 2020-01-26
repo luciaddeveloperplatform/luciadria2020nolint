@@ -1,3 +1,8 @@
+/* Key points to remember when configuring webpack with LuciadRIA 2020 */
+/* (1) In your babel-loader make sure you exclude anything outside /src folder or your compilation time will grow (include /src/ )
+/* (2) Configure your license in a separate entry in the entry array and makes sure it placed before that your main script.
+/* (3) Disable your map creation in production mode or you will end with a huge file )
+
 const path = require('path');
 const glob = require('glob');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -15,7 +20,7 @@ module.exports = (env, argv) => {
     const DEVELOPMENT_MODE = (MODE === 'development');
 
     const  webpackConfig = {
-        devtool: DEVELOPMENT_MODE ? 'eval-source-map' : undefined,
+        devtool: DEVELOPMENT_MODE ? 'eval-source-map' : undefined,  /* (3) This line is important with LuciadRIA */
         devServer: {
             inline: true,
             port: 3000,
@@ -25,7 +30,7 @@ module.exports = (env, argv) => {
                 errors: true
             }
         },
-        entry: ['babel-polyfill', './src/license/index.js', mainEntry],
+        entry: ['babel-polyfill', './src/license/index.js', mainEntry],  /* (2) This line is important with LuciadRIA */
         output: {
             path: path.join(__dirname, '/dist'),
             filename: 'index.js',
@@ -38,7 +43,7 @@ module.exports = (env, argv) => {
                 {
                     test: /\.(js|jsx)$/,
                     exclude: /node_modules/,
-                    include: /src/,
+                    include: /src/,               /* (1) This line is important with LuciadRIA */
                     use: {
                         loader: "babel-loader"
                     },
