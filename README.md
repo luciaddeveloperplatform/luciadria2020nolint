@@ -11,19 +11,19 @@ The setup can deal with js, jsx, css, scss and multiple static files (eot|svg|tt
 
 In this sample an empty map is added to the webpage page
 
-## How to use.  
-Simply download or clone this project from Github
-To setup the modules of the LuciadRIA API type
+## How to install.  
+Simply download or clone this project from Github.  
+Change directory to the location of the repository and install your npm dependencies.
+
+## To setup the LuciadRIA API modules type
 
 * npm install --save file_path_to_your_luciadria_package
 
-Example:
-
-### Main package (Addap the path to your local LuciadRIA folder)
+### For the main package (NOTE: Addap the path to your local LuciadRIA folder)
 
 * npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\ria
 
-### Optional packages (Addap the path to your local LuciadRIA folder)
+### Optional packages (NOTE: Addap the path to your local LuciadRIA folder)
 * npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\geometry
 * npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\symbology
 
@@ -36,7 +36,7 @@ Example:
 Simply copy a valid LuciadRIA license file into the folder './src/license'.
 Make sure your license file is called 'luciadria_development.txt'
 
-### Available Scripts
+## Available Scripts
 
 * npm start: Start development environment
 * npm run build: Build for production
