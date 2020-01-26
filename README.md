@@ -19,13 +19,17 @@ To setup the modules of the LuciadRIA API type
 
 Example:
 
-### Main package
+### Main package (Addap the path to your local LuciadRIA folder)
 
 * npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\ria
 
-### Optional packages
+### Optional packages (Addap the path to your local LuciadRIA folder)
 * npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\geometry
 * npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\symbology
+
+
+### Add LuciadMap controls from Github (optional)
+* npm install luciaddevelopmentplatform/luciadmapcontrols --save
 
 ### LuciadRIA license configuration
 
