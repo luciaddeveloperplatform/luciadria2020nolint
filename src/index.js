@@ -7,7 +7,7 @@ import {getReference} from "@luciad/ria/reference/ReferenceProvider";
 const root = document.getElementById("root");
 
 const mapElement = document.createElement("div");
-element.classList.add("LuciadMap");
+mapElement.classList.add("LuciadMap");
 root.appendChild(element);
 
 new WebGLMap(mapElement, {reference: ReferenceProvider.getReference("EPSG:4978")});
