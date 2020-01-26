@@ -8,6 +8,6 @@ const root = document.getElementById("root");
 
 const mapElement = document.createElement("div");
 mapElement.classList.add("LuciadMap");
-root.appendChild(element);
+root.appendChild(mapElement);
 
 new WebGLMap(mapElement, {reference: ReferenceProvider.getReference("EPSG:4978")});
