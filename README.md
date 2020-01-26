@@ -32,7 +32,7 @@ Example:
 Simply copy a valid LuciadRIA license file into the folder './src/license'.
 Make sure your license file is called 'luciadria_development.txt'
 
-##Scripts:
+### Available Scripts
 
 * npm start: Start development environment
 * npm run build: Build for production
