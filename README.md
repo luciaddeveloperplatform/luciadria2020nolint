@@ -39,7 +39,7 @@ npm install --save C:\luciad\LuciadRIA_2020.0.01\packages\es6\symbology
 npm install --save https://github.com/luciaddeveloperplatform/luciadmapcontrols/tarball/master
 ```
 For more info the 'luciadmapcontrols' package look at: 
-https://github.com/luciaddevelopmentplatform/luciadmapcontrols
+https://github.com/luciaddeveloperplatform/luciadmapcontrols
 
 ### LuciadRIA license configuration
 
