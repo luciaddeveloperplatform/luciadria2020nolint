@@ -2,7 +2,8 @@
 Key points to remember when configuring webpack with LuciadRIA 2020                                                             
  (1) In your babel-loader make sure you exclude anything outside /src folder or your compilation time will grow (include /src/ ) 
  (2) Configure your license in a separate entry in the entry array and makes sure it placed before that your main script.        
- (3) Disable your map creation in production mode or you will end with a huge file )                                             
+ (3) Disable your map creation in production mode or you will end with a huge file )
+ (4) Configure an Uglification plugin as terser, make sure compress.unused is set to false
 ********************************************************************************************************************************/
 
 const path = require('path');
